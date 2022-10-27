@@ -1,0 +1,25 @@
+.rodape {
+    text-align: center;
+}
+
+
+.rodape__titulo {
+    color: var(--cor-roxa);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    line-height: 30px;
+    padding: 1rem;
+}
+
+.rodape__texto {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-segundaria);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 2rem 2rem;
+}
+
+.rodape__texto--destaque {
+    color: var(--cor-roxa);
+}

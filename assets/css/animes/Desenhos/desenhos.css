@@ -1,0 +1,65 @@
+.desenhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 35px;
+    column-gap: 52px;
+    margin-top: 100px;
+}
+
+
+.desenhos__card {
+    position: relative;
+}
+
+.desenhos__imagem {
+    opacity: 0.6;
+}
+
+.desenhos__imagem:hover {
+    opacity: 1;
+}
+
+.desenhos__texto {
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 13px;
+    line-height: 20px;
+
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    right: 20px;
+}
+
+
+.carrosel {
+    background-image: url(../../../img/carrosel.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 272px;
+    height: 35px;
+    margin: 62px auto 106px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .desenhos {
+        justify-content: center;
+    }
+
+    .desenhos__imagem {
+        width: 100%;
+      }
+}
+
+@media screen and (max-width: 768px){
+    .desenhos {
+        flex-direction: column;
+    }
+
+}
+
