@@ -1,0 +1,18 @@
+@import url(../notfound/cabecalho/cabecalho.css);
+@import url(../notfound/container-principal/container.css);
+:root {
+    --cor-roxa: #8257E6;
+    --cor-branco: #FEFBFB;
+    --cor-cinza: #C4C4C4;
+    --cor-cinza-escuro: #282830;
+    --bg-fundo: #13131F;
+    --fonte-principal: 'Lexend Deca', sans-serif;
+    --fonte-segundaria: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: var(--bg-fundo);
+}
+
+
