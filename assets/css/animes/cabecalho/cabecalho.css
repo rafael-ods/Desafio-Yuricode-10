@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 1rem !important;
+    padding: 2rem 2rem !important;
 }
 
 .cabecalho__logo {
@@ -98,6 +98,7 @@
 
 @media screen and (max-width:500px) {
     .cabecalho {
+        justify-content: space-between;
         flex-direction: row-reverse;
     }
 

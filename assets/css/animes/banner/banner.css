@@ -93,3 +93,17 @@
         right: 20px;
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .banner__titulo {
+        left: 7px;
+    }
+    .banner__texto {
+        left: 7px;
+    }  
+    
+    .banner__input {
+        font-size: 11px;
+    }
+}
