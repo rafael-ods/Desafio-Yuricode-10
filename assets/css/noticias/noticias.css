@@ -1,0 +1,48 @@
+@import url(../animes/cabecalho/cabecalho.css);
+@import url(../noticias/banner/banner.css);
+@import url(../noticias/recentes/recentes.css);
+@import url(../animes/rodape/rodape.css);
+
+
+
+:root {
+    --cor-roxa: #8257E6;
+    --cor-branco: #FEFBFB;
+    --cor-cinza: #C4C4C4;
+    --cor-cinza-escuro: #282830;
+    --bg-fundo: #13131F;
+    --fonte-principal: 'Lexend Deca', sans-serif;
+    --fonte-segundaria: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: var(--bg-fundo);
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+
