@@ -1,0 +1,126 @@
+.banner__titulo {
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    line-height: 60px;
+    margin: 114px 0 11px 0;
+}
+
+.banner__texto {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-segundaria);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 80px;
+}
+
+.banner__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.banner__card {
+    position: relative;
+}
+
+.banner__card--menor {
+    position: relative;
+    margin: 0 0 20px 20px;
+}
+.banner__imagem {
+    opacity: 0.6;
+    width: 100%;
+}
+
+.banner__imagem:hover {
+    opacity: 1;
+}
+
+.banner__descricao {
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    line-height: 34px;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+}
+
+.new-lorem {
+    color: var(--cor-branco);
+    background-color: var(--cor-roxa);
+    border-radius: 3px;
+
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    line-height: 18px;
+
+    position: absolute;
+    padding: 5px 20px;
+    top: 17px;
+    left: 30px;
+}
+
+.lorem-card-pequeno {
+    font-size: 12px;
+    line-height: 15px;
+    top: 10px;
+    left: 10px;
+    padding: 2px 15px;
+}
+
+.banner__img__descricao {
+    font-size: 13px;
+    line-height: 20px;
+    left: 15px;
+    bottom: 10px;
+    width: 303px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .banner__titulo , .banner__texto {
+        margin-left: 20px;
+    }
+    
+    .banner__img {
+        display: flex;
+        flex-direction: column;
+        width: 761px;
+    }
+
+    .banner__card--menor {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner__titulo , .banner__texto {
+        margin-left: 0px;
+    }
+    
+    .banner__img {
+        flex-direction: column;
+        margin: 15px 0;
+    }
+    
+    .banner__descricao {
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner__card {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner__img__descricao {
+        width: auto;
+        font-size: 12px;
+    }   
+}

@@ -4,6 +4,7 @@
     font-size: 24px;
     line-height: 20px;
     border-bottom: 5px solid var(--cor-roxa);
+    padding-bottom: 10px;
     display: inline-block;
 }
 
@@ -50,6 +51,19 @@
      display: flex;
      flex-direction: column;
      align-items: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .recentes__container {
+        width: 761px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .recentes__container {
+        width: auto;
     }
 }
 
